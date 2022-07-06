@@ -6,22 +6,27 @@ body{
 h1{
   font-size: 50px;
 }
+p{
+  font-size: 30px;
+}
 .orange-color{
   color: orange;
 }
 
 section{
   display: flex;
+  margin-bottom: 100px;
 }
 
 .half-width{
   width: 50%;
-  padding-left: 5px;
-
+  padding-left: 50px;
+  
 }
-.half-width image{
+.half-width img{
   width: 100%;
 }
+
  
 .link-button{
   text-decoration: none;
@@ -37,4 +42,11 @@ section{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 
+}
+
+.dream-big{
+  background-image: url(images/dream-bg.png);
+
+  background-repeat: no-repeat;
+  background-position: right;
 }
